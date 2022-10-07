@@ -1,0 +1,29 @@
+.drones-list {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.drones-list h2 {
+  margin-bottom: 20px;
+}
+.drones-list ul {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px 20px 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+.drones-list li{
+  min-width: 280px;
+}
+.drones-list a{
+  display: block;
+}
+.drones-list img{
+  margin-bottom: 16px;
+}
+
+@media (max-width:800px){
+
+}

@@ -1,0 +1,26 @@
+:root {
+  --gray: #a9a9a9;
+  --white: #fff;
+  --black-0: #000;
+  --black-1: #111;
+  --green: #00e472;
+  --green-hover: #03d36b;
+}
+.gray {
+  color: #a9a9a9;
+}
+.white {
+  color: #fff;
+}
+.black-0 {
+  color: #000;
+}
+.black-1 {
+  color: #111;
+}
+.green {
+  color: #00e472;
+}
+.green-hover {
+  color: #03d36b;
+}
