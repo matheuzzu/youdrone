@@ -23,3 +23,6 @@
 
 /* Insurance */
 @import "./home/insurance.css";
+
+/* Footer */
+@import "/css/global/footer.css";

@@ -15,6 +15,7 @@
 .insurance-prata {
   background-color: var(--black-0);
   padding: 32px;
+  border-radius: 6px;
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 10px;
