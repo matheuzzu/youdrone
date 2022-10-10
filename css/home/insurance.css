@@ -1,0 +1,40 @@
+.insurance-bg {
+  background-color: var(--black-1);
+}
+.insurance {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.insurance h2 {
+  grid-column: 1/-1;
+}
+.insurance-prata {
+  background-color: var(--black-0);
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+}
+.insurance-prata span {
+  grid-column: 2;
+}
+.insurance-prata ul {
+  grid-column: 1/-1;
+  margin-bottom: 20px;
+}
+.insurance-prata li {
+  margin-top: 10px;
+}
+.insurance-prata a {
+  grid-column: 1/-1;
+  max-width: max-content;
+}
+@media (max-width: 700px) {
+  .insurance {
+    grid-template-columns: 1fr;
+  }
+}

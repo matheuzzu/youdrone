@@ -54,8 +54,8 @@
     display: none;
   }
 }
-@media (max-width: 600px){
-  .technology-adv{
+@media (max-width: 600px) {
+  .technology-adv {
     flex-direction: column;
   }
 }

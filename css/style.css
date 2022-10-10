@@ -20,3 +20,6 @@
 
 /* Drones */
 @import "./drones/drones-list.css";
+
+/* Insurance */
+@import "./home/insurance.css";
