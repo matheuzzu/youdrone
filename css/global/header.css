@@ -1,7 +1,6 @@
 .header-bg {
   background-color: var(--black-0);
 }
-
 .header {
   display: flex;
   justify-content: space-between;
