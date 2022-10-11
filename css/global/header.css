@@ -25,17 +25,15 @@
   font-size: 1.2rem;
   position: relative;
 }
-
 .header-menu a:after {
   content: "";
-  display: block;
+  position: absolute;
+  background-color: var(--green);
   height: 2px;
   width: 0%;
-  background: var(--green);
-  margin-top: 4px;
-  transition: 0.1s;
+  left: 0;
+  bottom: 10px;
 }
 .header-menu a:hover:after {
   width: 100%;
-  position: absolute;
 }
