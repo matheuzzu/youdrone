@@ -1,6 +1,6 @@
 .technology-bg {
   background-color: var(--black-1);
-  box-shadow: inset 0 80px var(--white), inset 0 -80px var(--white);
+  box-shadow: inset 0 80px var(--white);
 }
 .technology {
   display: grid;
@@ -15,8 +15,8 @@
   box-shadow: 0 10px 30px 1px var(--black-1);
 }
 .technology-content {
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 120px;
+  padding-bottom: 80px;
 }
 .technology-content > span {
   display: block;
@@ -30,6 +30,7 @@
 }
 .technology-adv {
   display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 .technology h2 {
@@ -47,8 +48,7 @@
     grid-template-columns: 1fr;
   }
   .technology-content {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 40px 0px 20px;
   }
   .technology-img {
     display: none;

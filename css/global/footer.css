@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   gap: 40px;
-  padding: 32px 60px 32px 60px;
+  padding: 32px 60px 12px 60px;
 }
 .footer-content h3 {
   padding-bottom: 20px;
@@ -16,7 +16,7 @@
 }
 .footer-social-media {
   display: flex;
-  gap: 32px;
+  gap: 0px 32px;
 }
 .footer a:hover {
   color: var(--green);
@@ -25,10 +25,8 @@
   padding: 20px;
   text-align: center;
 }
-@media (max-width: 800px) {
-  .footer img {
-    display: none;
-  }
+.footer-logo {
+  min-width: 110px;
 }
 @media (max-width: 600px) {
   .footer {
@@ -36,8 +34,12 @@
     padding: 20px 30px 0px 30px;
     gap: 20px;
   }
+  .footer-logo {
+    display: none;
+  }
   .footer img {
     margin-left: 0;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    max-width: 25px;
   }
 }
